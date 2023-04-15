@@ -9,8 +9,6 @@
      @include('includes.styles')
      <!-- CSS -->
      @yield('styling')
-     <!-- Font Awesome -->
-    @include('includes.fawesome')
 
     <title>@yield('title')</title>
   </head>
@@ -24,7 +22,7 @@
 
       <!-- Font Awesome JS -->
     <!-- Bootstrap JS -->
-    @include('includes.script')
+    @include('includes.scripts')
 
   </body>
 </html>

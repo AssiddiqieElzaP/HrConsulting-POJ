@@ -18,13 +18,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view("welcome");
-// });
-
-
-Route::get('/login', [LoginController::class, 'login']);
-Route::get('/', [ServiceController::class, 'index']);
+Route::get('/', [LoginController::class, 'login']);
+Route::get('/service', [ServiceController::class, 'index']);
 Route::get('/about-us', [AboutUsController::class, 'aboutUs']);
 Route::get('/landing-page', [LandingPageController::class, 'landingPage']);
 Route::get('/our-client', [OurClientController::class, 'ourClient']);
